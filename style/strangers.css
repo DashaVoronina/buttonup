@@ -397,11 +397,11 @@ h4 > a {
     
 }
 
-.product-item1:hover {
+/*.product-item1:hover {
     background-image: url(../products/1/IMG_1369.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item3 {
     background-image: url(../products/3/IMG_1342.jpg);
@@ -409,11 +409,11 @@ h4 > a {
     
 }
 
-.product-item3:hover {
+/*.product-item3:hover {
     background-image: url(../products/3/IMG_1343.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item5 {
     background-image: url(../products/5/IMG_1247.jpg);
@@ -421,11 +421,11 @@ h4 > a {
     
 }
 
-.product-item5:hover {
+/*.product-item5:hover {
     background-image: url(../products/5/IMG_1256.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item7 {
     background-image: url(../products/7/IMG_1235.jpg);
@@ -433,11 +433,11 @@ h4 > a {
     
 }
 
-.product-item7:hover {
+/*.product-item7:hover {
     background-image: url(../products/7/IMG_1263.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item9 {
     background-image: url(../products/9/IMG_1424.jpg);
@@ -445,11 +445,11 @@ h4 > a {
     
 }
 
-.product-item9:hover {
+/*.product-item9:hover {
     background-image: url(../products/9/IMG_1450.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item10 {
     background-image: url(../products/10/IMG_1394.jpg);
@@ -457,11 +457,11 @@ h4 > a {
     
 }
 
-.product-item10:hover {
+/*.product-item10:hover {
     background-image: url(../products/10/IMG_1414.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item12 {
     background-image: url(../products/12/IMG_1273.jpg);
@@ -469,11 +469,11 @@ h4 > a {
     
 }
 
-.product-item12:hover {
+/*.product-item12:hover {
     background-image: url(../products/12/IMG_1285.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item14 {
     background-image: url(../products/14/IMG_1348.jpg);
@@ -481,11 +481,11 @@ h4 > a {
     
 }
 
-.product-item14:hover {
+/*.product-item14:hover {
     background-image: url(../products/14/IMG_1350.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
  
  .product-item16 {
     background-image: url(../products/16/IMG_1282.jpg);
@@ -493,11 +493,11 @@ h4 > a {
     
 }
 
-.product-item16:hover {
+/*.product-item16:hover {
     background-image: url(../products/16/IMG_1284.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item18 {
     background-image: url(../products/18/IMG_1446.jpg);
@@ -505,11 +505,11 @@ h4 > a {
     
 }
 
-.product-item18:hover {
+/*.product-item18:hover {
     background-image: url(../products/18/IMG_1447.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item20 {
     background-image: url(../products/20/IMG_1391.jpg);
@@ -517,11 +517,11 @@ h4 > a {
     
 }
 
-.product-item20:hover {
+/*.product-item20:hover {
     background-image: url(../products/20/IMG_1411.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
  .product-item-link {
      text-decoration: none;

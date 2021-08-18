@@ -406,11 +406,11 @@ h4 > a {
     
 }
 
-.product-item15:hover {
+/*.product-item15:hover {
     background-image: url(../products/15/222745736_129591169325804_8206818811082136830_n.jpg);
     transition: .1s ease-in;
     
- }
+ }*/
 
 .product-item17 {
     background-image: url(../images/18.jpg); 
