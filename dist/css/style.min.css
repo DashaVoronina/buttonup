@@ -565,11 +565,11 @@ a {
 }
 
 .jq-number__spin.minus:hover:after {
-  border-top-color: #000;
+  border-top-color: #231F20;
 }
 
 .jq-number__spin.plus:hover:after {
-  border-bottom-color: #000;
+  border-bottom-color: #231F20;
 }
 
 .jq-number.focused .jq-number__field {
@@ -668,7 +668,7 @@ a {
 }
 
 .jq-selectbox:hover .jq-selectbox__trigger-arrow {
-  border-top-color: #000;
+  border-top-color: #231F20;
 }
 
 .jq-selectbox.disabled .jq-selectbox__trigger-arrow {
@@ -941,9 +941,10 @@ body {
 }
 
 .container {
-  max-width: 1118px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0;
+  width: 90%;
 }
 
 body {
@@ -977,6 +978,9 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -1030,7 +1034,7 @@ body {
 .menu__list-link {
   font-size: 18px;
   line-height: 27px;
-  color: #414042;
+  color: #231F20;
   text-transform: uppercase;
 }
 
@@ -1060,13 +1064,16 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__list-name {
   font-size: 20px;
   line-height: 21px;
   letter-spacing: 0.015em;
-  color: #414042;
+  color: #231F20;
   margin-bottom: 15px;
 }
 
@@ -1082,7 +1089,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.015em;
-  color: #414042;
+  color: #231F20;
 }
 
 .footer__list-link:hover {
@@ -1101,7 +1108,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.015em;
-  color: #414042;
+  color: #231F20;
   margin-bottom: 15px;
 }
 
@@ -1120,7 +1127,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  color: #000;
+  color: #231F20;
   font-size: 18px;
   margin: 10px auto 0;
 }
@@ -1155,7 +1162,7 @@ body {
 }
 
 .details__item-slide {
-  width: 651px;
+  width: 600px;
   margin-right: 20px;
 }
 
@@ -1169,7 +1176,7 @@ body {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
+          /*justify-content: center;*/
 }
 
 .details-slide__thumb {
@@ -1228,7 +1235,7 @@ body {
 .details-content__form-radio {
   width: 30px;
   height: 30px;
-  border: 1px solid #414042;
+  border: 1px solid #231F20;
   background: rebeccapurple;
   display: inline-block;
   position: relative;
@@ -1238,7 +1245,7 @@ body {
   font-size: 26px;
   line-height: 35px;
   letter-spacing: 0.135em;
-  color: #414042;
+  color: #231F20;
   margin: 40px 0 44px;
 }
 
@@ -1300,12 +1307,12 @@ body {
 .details-content .jq-selectbox__select {
   height: 59px;
   padding: 14px 24px;
-  border: 1px solid #000;
+  border: 1px solid #231F20;
   border-radius: 0;
   background: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #000;
+  color: #231F20;
   text-shadow: none;
   font-size: 18px;
   line-height: 27px;
@@ -1332,7 +1339,7 @@ body {
 
 .details-content .jq-selectbox li.selected {
   background-color: #EDEDED;
-  color: #000;
+  color: #231F20;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.135em;
@@ -1345,7 +1352,7 @@ body {
 }
 
 .details-content .jq-selectbox__dropdown {
-  color: #000;
+  color: #231F20;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 0.135em;
@@ -1370,13 +1377,13 @@ body {
 .details-content .jq-number__field {
   width: 204px;
   height: 59px;
-  border: 1px solid #414042;
+  border: 1px solid #231F20;
   border-radius: 0;
 }
 
 .details-content .jq-number__field input {
   padding: 18px 9px;
-  color: #000;
+  color: #231F20;
   text-align: center;
   font-size: 18px;
   line-height: 27px;
@@ -1394,7 +1401,7 @@ body {
   left: 15px;
   width: 10px;
   height: 2px;
-  background-color: #000;
+  background-color: #231F20;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -1411,7 +1418,7 @@ body {
   left: 15px;
   width: 10px;
   height: 2px;
-  background-color: #000;
+  background-color: #231F20;
   border-right: none;
   border-bottom: none;
   border-left: none;
@@ -1424,7 +1431,7 @@ body {
   left: 19px;
   width: 2px;
   height: 10px;
-  background-color: #000;
+  background-color: #231F20;
 }
 
 .details-content .jq-number__spin {
@@ -1449,13 +1456,13 @@ body {
 
 /* info */
 .info {
-  padding: 0 0 67px;
+  padding: 0 85px 67px;
 }
 
 .info__inctruction-name {
   width: 100%;
   height: 50px;
-  border: 1px solid #414042;
+  border: 1px solid #231F20;
   padding: 14px 0 14px 20px;
   font-size: 18px;
   line-height: 27px;
@@ -1480,7 +1487,7 @@ body {
 .info__delivery-name {
   width: 100%;
   height: 50px;
-  border: 1px solid #414042;
+  border: 1px solid #231F20;
   padding: 14px 0 14px 20px;
   font-size: 18px;
   line-height: 27px;
@@ -1504,7 +1511,7 @@ body {
 
 .info__inctruction-content {
   padding: 63px 60px 78px;
-  border: 1px solid #000;
+  border: 1px solid #231F20;
   margin-bottom: 20px;
   display: none;
 }
@@ -1534,7 +1541,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 479px;
+  max-width: 390px;
   margin-bottom: 28px;
 }
 
@@ -1547,7 +1554,7 @@ body {
 
 .info__delivery-content {
   padding: 73px 60px;
-  border: 1px solid #000;
+  border: 1px solid #231F20;
   display: none;
 }
 
@@ -1612,6 +1619,7 @@ body {
   line-height: 21px;
   letter-spacing: 0.135em;
   margin-bottom: 11px;
+  height: 40px;
 }
 
 .suits__item-num {
@@ -1640,7 +1648,7 @@ body {
   font-size: 26px;
   line-height: 35px;
   letter-spacing: 0.135em;
-  color: #414042;
+  color: #231F20;
   margin-bottom: 62px;
   text-align: center;
 }
@@ -1724,7 +1732,7 @@ body {
   font-size: 24px;
   line-height: 35px;
   letter-spacing: 0.135em;
-  color: #414042;
+  color: #231F20;
 }
 
 .cart__item-box {
@@ -1742,7 +1750,7 @@ body {
 .cart__item-btn {
   width: 60px;
   height: 60px;
-  border: 1px solid #000;
+  border: 1px solid #231F20;
   background: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1789,12 +1797,12 @@ body {
 .cart .jq-selectbox__select {
   height: 60px;
   width: 92px;
-  border: 1px solid #000;
+  border: 1px solid #231F20;
   border-radius: 0;
   background: #fff;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #000;
+  color: #231F20;
   text-shadow: none;
   text-align: center;
   padding: 18px 0;
@@ -1814,12 +1822,12 @@ body {
 
 .cart .jq-selectbox li.selected {
   background-color: #EDEDED;
-  color: #000;
+  color: #231F20;
 }
 
 .cart .jq-selectbox li {
   padding: 10px 10px 10px 40px;
-  color: #000;
+  color: #231F20;
 }
 
 .cart .jq-selectbox li:hover {
@@ -1841,7 +1849,7 @@ body {
 .cart .jq-number__field {
   width: 203px;
   height: 60px;
-  border: 1px solid #414042;
+  border: 1px solid #231F20;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 0;
@@ -1849,7 +1857,7 @@ body {
 
 .cart .jq-number__field input {
   padding: 18px 9px;
-  color: #000;
+  color: #231F20;
   text-align: center;
   font-size: 18px;
   line-height: 27px;
@@ -1867,7 +1875,7 @@ body {
   left: 15px;
   width: 10px;
   height: 2px;
-  background-color: #000;
+  background-color: #231F20;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -1884,7 +1892,7 @@ body {
   left: 15px;
   width: 10px;
   height: 2px;
-  background-color: #000;
+  background-color: #231F20;
   border-right: none;
   border-bottom: none;
   border-left: none;
@@ -1897,7 +1905,7 @@ body {
   left: 19px;
   width: 2px;
   height: 10px;
-  background-color: #000;
+  background-color: #231F20;
 }
 
 .cart .jq-number__spin {
@@ -1930,7 +1938,7 @@ body {
   font-size: 26px;
   line-height: 26px;
   letter-spacing: 0.135em;
-  color: #414042;
+  color: #231F20;
   margin-bottom: 19px;
 }
 
@@ -1979,7 +1987,7 @@ body {
   padding: 51px 36px;
   max-width: 500px;
   max-height: 100vh;
-  border: 1px solid #000;
+  border: 1px solid #231F20;
   border-radius: 0;
   overflow-y: auto;
   -webkit-box-sizing: border-box;
@@ -2004,7 +2012,7 @@ body {
   font-weight: 400;
   font-size: 1.50rem;
   line-height: 1.25;
-  color: #000;
+  color: #231F20;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
@@ -2014,7 +2022,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 1rem;
   line-height: 1.5;
-  color: #000;
+  color: #231F20;
   text-align: center;
 }
 
@@ -2051,7 +2059,7 @@ body {
 
 .modal__btn-primary {
   background-color: #EDEDED;
-  color: #000;
+  color: #231F20;
   border: none;
 }
 
@@ -2427,7 +2435,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 1px solid #000;
+    border: 1px solid #231F20;
     background-color: transparent;
     cursor: pointer;
   }
