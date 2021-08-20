@@ -1105,7 +1105,7 @@ body {
 }
 
 .footer__item-title {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
   letter-spacing: 0.015em;
   color: #231F20;
@@ -1128,8 +1128,9 @@ body {
           align-items: center;
   cursor: pointer;
   color: #231F20;
-  font-size: 18px;
+  font-size: 16px;
   margin: 10px auto 0;
+  font-weight: 600;
 }
 
 .footer__item-link:hover {
@@ -2366,6 +2367,7 @@ body {
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 80px;
+    font-weight: 600;
   }
   .footer ul.footer__list {
     margin-bottom: 80px;
