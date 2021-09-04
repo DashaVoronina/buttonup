@@ -72,19 +72,19 @@ button {
 }
 .menu-list-item a {
     color: #231F20;
-    font-family: futura;
+    font-family: futura-bold;
     text-decoration: none;
     font-size: 18px;
 }
 
 .menu-list-item a:hover {
-    color: #FA15FF;
-    font-family: futura;
+    color: #2300B0;
+    
     text-decoration: none;
     
 }
 .menu-list-item:nth-child(n + 2) {
-    margin-left: 38px;
+    margin-left: 40px;
 }
 
     
@@ -118,8 +118,6 @@ button {
     margin: 0;
 
 }
-
-
 
 
 .profile-item-link {
@@ -166,6 +164,22 @@ button {
     margin-right: 38px;
 }
 
+.profile-link-search {
+    background-image: url("../svg/search.svg");
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin: 0;
+    margin-right: 30px;
+}
+
+.profile-link-search:hover {
+    background-image: url("../svg/search-hover.svg");
+}
+
 .profile-link-cart {
     background-image: url("../svg/cart.svg");
     display: block;
@@ -173,14 +187,24 @@ button {
     height: 25px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 0;
-    margin: 0;
+    margin-right: 30px;
+    
 }
 
 .profile-link-cart:hover {
     background-image: url("../svg/cart-hover.svg");
 }
 
+.profile-link-country {
+    background-image: url("../svg/uk\ flag.svg");
+    display: block;
+    width: 30px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0;
+    margin: 0;
+}
 
 .profile-link-text {
     position: absolute;
@@ -188,6 +212,7 @@ button {
     height: 1px;
     clip: rect(1px, 1px, 1px, 1px);
 }
+
 
 
 
@@ -314,7 +339,7 @@ input:focus {
 textarea:focus {
     border: 1px solid #FA15FF;
 }
-.contact_name, .phone, .email_brand, .brand_name, .designers_name, .date, .text  {
+.contact_name, .phone, .email_brand, .brand_name, .link, .text  {
     width: 100%;
     height: 40px;
     background-color: #ffffff;
@@ -341,7 +366,7 @@ textarea:focus {
 
 
 .send-button {
-    width: 190px;
+    width: 120px;
     height: 50px;
     background-color: #FA15FF;
 
@@ -349,7 +374,7 @@ textarea:focus {
     margin-bottom: 60px;
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #231F20;
 }
 
@@ -363,20 +388,22 @@ textarea:focus {
     justify-content: center;
 }
 
+/*__________________________________*/
+
 .links {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 90px;
     margin-bottom: 60px;
     align-items: center;
 }
 
 .follow {
-    font-size: 26px;
+    font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 15px;
     font-family: futura-bold;
-    color: #414042;
+    color: #231F20;
 
 }
 .container-link {
@@ -408,10 +435,10 @@ textarea:focus {
 
 .socials-link {
     display: block;
-    width: 51px;
-    height: 51px;
+    width: 35px;
+    height: 35px;
     background-repeat: no-repeat;
-    background-size: 51px;
+    background-size: 35px;
     background-position: center;
     
 }
@@ -419,7 +446,7 @@ textarea:focus {
 
 .socials-link-instagram {
     background-image: url("../svg/Instagram.svg");
-    background-size: auto 35px;
+    background-size: auto 23px;
 }
 
 .socials-link-instagram:hover {
@@ -430,7 +457,7 @@ textarea:focus {
 
 .socials-link-facebook {
     background-image: url("../svg/Fb.svg");
-    background-size: auto 36px;
+    background-size: auto 23px;
 }
 
 .socials-link-facebook:hover {
@@ -439,7 +466,7 @@ textarea:focus {
 
 .socials-link-youtube {
     background-image: url("../svg/YouTube.svg");
-    background-size: auto 35px;
+    background-size: 35px auto;
 }
 
 .socials-link-youtube:hover {
@@ -452,6 +479,8 @@ textarea:focus {
     height: 1px;
     clip: rect(1px, 1px, 1px, 1px);
 }
+
+/*_______________________________________*/
 
 .footer {
     
@@ -561,4 +590,218 @@ textarea:focus {
 .email-span {
     display: none;
 } 
+
+@media (max-width: 640px) {
+
+        .header {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            margin: 0;
+        }
+    
+        .container-logo {
+            display: none;
+        }
+    
+        .container-menu {
+            width: 90%;
+            margin-top: 35px;
+            margin-left: auto;
+            margin-right: auto;
+    
+        }
+            
+        .menu {
+            width: 35px;
+            height: 35px;
+    
+        }
+        .menu__button {
+            display: block;
+            width: 1.4em;
+            height: 1em;
+            border: none;
+            padding: 0;
+            background-color: transparent;
+            font-size: 25px;
+            position: relative;
+            text-indent: -9999px;
+            cursor: pointer;
+            margin: 5px 0;
+        }
+        .menu__button:before {
+            top: 0;
+        }
+        .menu__button:after {
+            bottom: 0;
+        }
+        .menu__button:after, .menu__button:before {
+            content: "";
+            width: 100%;
+            height: 10%;
+           
+            background-color: #231F20;
+            position: absolute;
+            left: 0;
+        }
+        .menu__button-label {
+            width: 80%;
+            height: 10%;
+            margin-top: -0.1em;
+            
+            background-color: #231f20;
+            position: absolute;
+            left: 0;
+            top: 50%;
+        }
+        .menu-list {
+            display: none;
+        }
+    
+        .container-profile {
+            width: 20%;
+        }
+        .profile-item:first-child {
+            display: none;
+        }
+    
+        .profile-item:nth-child(2) {
+            display: none;
+        }
+    
+        .profile-item:nth-child(1n+3) {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+            
+        }
+    
+        
+        .profile-link-cabinet {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+            fill: #ffffff;
+            background-image: url("../svg/profile-mobile.svg");
+        }
+    
+        .profile-link-cart {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+            fill: #ffffff;
+            background-image: url("../svg/cart-mobile.svg");
+        }
+    
+    
+        .welcome {
+            height: 750px;
+            width: 100%;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+
+        .welcome-title {
+            font-size: 36px;
+            padding-top: 35px;
+        }
+
+        .application {
+            width: 95%;
+        }
+    
+        .application-header {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .application-fields input, textarea {
+            font-size: 16px;
+            height: 45px;
+        }
+
+        .send-button {
+            width: 120px;
+            height: 60px;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        .links {
+            margin-top: 0px;
+        }
+
+        .follow {
+            font-size: 22px;
+        }
+
+        .footer-elements {
+            width: 90%;
+            padding-bottom: 80px;
+            
+        }
+        .articles-footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .links-column {
+            order: 1;
+            margin: 0;
+         
+        }
+    
+        .text-links {
+            margin: 0;
+            margin-top: 60px;
+            font-size: 22px;
+            
+        }
+    
+        .quick-link-text {
+            font-size: 18px;
+        }
+    
+        .text-column {
+            order: 2;
+            margin: 0;
+           
+        }
+    
+        .newsletter {
+            order: 0;
+            width: 100%;
+        }
+    
+        .subscribe-text {
+            margin: 0;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+    
+        .subscribe-email {
+            width: 100%;
+        }
+    
+        .email {
+            width: 100%;
+            height: 50px;
+        }
+    
+        .subscribe-button {
+            width: 120px;
+            height: 60px;
+            margin: 0;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+               
+          }
 

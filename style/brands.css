@@ -72,19 +72,19 @@ button {
 }
 .menu-list-item a {
     color: #231F20;
-    font-family: futura;
+    font-family: futura-bold;
     text-decoration: none;
     font-size: 18px;
 }
 
 .menu-list-item a:hover {
-    color: #FA15FF;
-    font-family: futura;
+    color: #2300B0;
+    
     text-decoration: none;
     
 }
 .menu-list-item:nth-child(n + 2) {
-    margin-left: 38px;
+    margin-left: 40px;
 }
 
     
@@ -118,8 +118,6 @@ button {
     margin: 0;
 
 }
-
-
 
 
 .profile-item-link {
@@ -166,6 +164,22 @@ button {
     margin-right: 38px;
 }
 
+.profile-link-search {
+    background-image: url("../svg/search.svg");
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin: 0;
+    margin-right: 30px;
+}
+
+.profile-link-search:hover {
+    background-image: url("../svg/search-hover.svg");
+}
+
 .profile-link-cart {
     background-image: url("../svg/cart.svg");
     display: block;
@@ -173,14 +187,24 @@ button {
     height: 25px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 0;
-    margin: 0;
+    margin-right: 30px;
+    
 }
 
 .profile-link-cart:hover {
     background-image: url("../svg/cart-hover.svg");
 }
 
+.profile-link-country {
+    background-image: url("../svg/uk\ flag.svg");
+    display: block;
+    width: 30px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0;
+    margin: 0;
+}
 
 .profile-link-text {
     position: absolute;
@@ -188,6 +212,7 @@ button {
     height: 1px;
     clip: rect(1px, 1px, 1px, 1px);
 }
+
 
 
 
@@ -286,6 +311,57 @@ h4 > a {
 
 /*________________________________________*/
 
+/* Style the tab */
+.tab {
+    overflow: hidden;
+   /* border: 1px solid #ccc;
+    background-color: #f1f1f1;*/
+    
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: #ffffff;
+    float: left;
+    border-bottom: 1px solid #231F20;
+    outline: none;
+    cursor: pointer;
+    width: 15%;
+    height: 30px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    border-bottom: 1px solid #FA15FF;
+    color: #FA15FF;
+}
+
+/* Create an active/current tablink class */
+/*.tab button.active {
+    background-color: #ccc;
+}*/
+
+/* Style the tab content */
+/*.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}*/
+
+
+
+
+
+
 .designers {
     display: flex;
     flex-direction: column;
@@ -308,19 +384,29 @@ h4 > a {
     margin-top: 50px;
 }
 .designers__item {
-    margin-right: 20px;
-    
+    /*margin-right: 20px;*/
+    padding: 20px 40px;
+    border-right: 1px solid #231F20;    
     
 }
 
-.designers__item:hover {
+.designers__item:last-child {
+    /*margin-right: 20px;*/
+   
+     
+    border-right: none;    
+    
+}
+
+/*.designers__item:hover {
     transform: scale(1.02);
     transition: 0.5s;
     
- }
+ }*/ 
 
 .designer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -335,12 +421,31 @@ article .designer {
 .user-designer__img {
     width: 100%;
 }
-.designer_info {
-    position: absolute;
-    margin: 0;
-    font-family: futura-bold;
-    font-size: 24px;  
-    color: #ffffff;
+.designer-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    font-family: 'futura';
+}
+
+.value-link {
+    text-decoration: none;
+    color: #231F20;
+}
+
+.country-flag {
+    background-color: #231F20;
+    background-image: url(../svg/rus.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 20px;
 }
 
 
@@ -361,7 +466,7 @@ article .designer {
 }
 
 .follow {
-    font-size: 32px;
+    font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 15px;
     font-family: futura-bold;
@@ -397,10 +502,10 @@ article .designer {
 
 .socials-link {
     display: block;
-    width: 51px;
-    height: 51px;
+    width: 35px;
+    height: 35px;
     background-repeat: no-repeat;
-    background-size: 51px;
+    background-size: 35px;
     background-position: center;
     
 }
@@ -408,7 +513,7 @@ article .designer {
 
 .socials-link-instagram {
     background-image: url("../svg/Instagram.svg");
-    background-size: auto 35px;
+    background-size: auto 23px;
 }
 
 .socials-link-instagram:hover {
@@ -419,7 +524,7 @@ article .designer {
 
 .socials-link-facebook {
     background-image: url("../svg/Fb.svg");
-    background-size: auto 36px;
+    background-size: auto 23px;
 }
 
 .socials-link-facebook:hover {
@@ -428,7 +533,7 @@ article .designer {
 
 .socials-link-youtube {
     background-image: url("../svg/YouTube.svg");
-    background-size: auto 35px;
+    background-size: 35px auto;
 }
 
 .socials-link-youtube:hover {

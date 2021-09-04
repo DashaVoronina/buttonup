@@ -215,6 +215,7 @@ button {
 
 
 
+
 .welcome {
     display: flex;
     background-image: url("../images/grey_bg.png");
@@ -242,7 +243,7 @@ button {
     opacity: 0.35;
 }*/
    
-.main-screen {
+/*.main-screen {
     width: 100%;
 }
 
@@ -285,13 +286,18 @@ button {
     font-family: futura-bold;
     margin: 0;
     font-size: 24px;
+}*/
+
+
+
+
+h1 {
+    color: #231F20;
 }
 
-
-
-
-
-
+h2 {
+    color: #231F20;
+}
 
 h3 > a {
     text-decoration: none;
@@ -307,291 +313,148 @@ h4 > a {
     margin: 0;
 }
 
-
-.about {
+.application {
     display: block;
+    width: 1096px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    width: 100%;
-    
 }
-.about-title {
-    text-transform: uppercase;
-    font-size: 28px;
-    text-align: center; 
-    font-family: futura-bold;
-    margin: 0;
-    margin-bottom: 15px;
 
-}
-.info {
+.advantages {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    
 }
 
-.user {
-    display: flex;
-    background-image: url(../images/founders_strangers.png);
-    background-color: #ffffff;
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center top;
-}
-
-/*.user__img {
-    width: 100%;
-    height: 100%;
-}*/
-
-.brand-info{
-    display: block;
-    width: 100%;
-    font-family: 'futura';
-    text-align: justify;
-}
-
-.article__title {
-    margin-bottom: 15px;
-    font-family: futura;
-    display: none;
-}
-
-.article__title__link:hover {
-    color: #91A6BF;
-    text-decoration: none;
-}
-
-.article__text {
-    margin-top: 30px;
-    font-size: 18px;
-    text-align: justify;
-}
-
-
-.product-items {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+.cooperation-header {
+    font-family: 'futura-bold';
     margin-top: 60px;
-   
-    text-align: center;
-    justify-content: center;
-   
-    background: white;
-    font-family: "futura";
-    transition: .3s ease-in;
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
 }
 
-.product-items > div {
+.conditions {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.conditions div {
+    margin-top: 30px;
+    
+}
+
+.sale {
+    display: flex;
+    align-items: center;
+}
+
+.sale-icon {
+    width: 95px;
+    height: 95px;
+    margin-right: 20px;
+    background-image: url(../svg/sale.svg);
     background-repeat: no-repeat;
-    background-position: center center;
-    
-    width: 20%;
-    height: 350px;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    margin-right: 30px;
-    background-color: #231F20;
-    z-index: 2; 
+    background-position: center;
+    background-size: 95px auto;
 }
 
-.product-items > div:nth-child(4n+4) {
-    margin-right: 0;
+.accounting {
+    display: flex;
+    align-items: center;
 }
 
-.product-items > div:last-child {
-    margin-right: 0;
+.accounting-icon {
+    width: 95px;
+    height: 95px;
+    margin-right: 20px;
+    background-image: url(../svg/accounting.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.product-item1 {
-    background-image: url(../products/1/IMG_1366.jpg);
-    background-size: 315px auto;
-    
+.promotion {
+    display: flex;
+    align-items: center;
 }
 
-/*.product-item1:hover {
-    background-image: url(../products/1/IMG_1369.jpg);
-    transition: .1s ease-in;
-    
- }*/
-
- .product-item3 {
-    background-image: url(../products/3/IMG_1342.jpg);
-    background-size: 315px auto;
-    
+.promotion-icon {
+    width: 95px;
+    height: 95px;
+    margin-right: 20px;
+    background-image: url(../svg/promotion.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-/*.product-item3:hover {
-    background-image: url(../products/3/IMG_1343.jpg);
-    transition: .1s ease-in;
-    
- }*/
-
- .product-item5 {
-    background-image: url(../products/5/IMG_1247.jpg);
-    background-size: 315px auto;
-    
+.legal {
+    display: flex;
+    align-items: center;
 }
 
-/*.product-item5:hover {
-    background-image: url(../products/5/IMG_1256.jpg);
-    transition: .1s ease-in;
-    
- }*/
-
- .product-item7 {
-    background-image: url(../products/7/IMG_1235.jpg);
-    background-size: 315px auto;
-    
+.legal-icon {
+    width: 95px;
+    height: 95px;
+    margin-right: 20px;
+    background-image: url(../svg/legal.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
 }
 
-/*.product-item7:hover {
-    background-image: url(../products/7/IMG_1263.jpg);
-    transition: .1s ease-in;
-    
- }*/
 
- .product-item9 {
-    background-image: url(../products/9/IMG_1424.jpg);
-    background-size: 315px auto;
-    
+.conditions-info {
+    display: flex;
+    flex-direction: column;
 }
 
-/*.product-item9:hover {
-    background-image: url(../products/9/IMG_1450.jpg);
-    transition: .1s ease-in;
-    
- }*/
-
- .product-item10 {
-    background-image: url(../products/10/IMG_1394.jpg);
-    background-size: 315px auto;
-    
+.conditions-header {
+    font-family: 'futura-bold';
 }
 
-/*.product-item10:hover {
-    background-image: url(../products/10/IMG_1414.jpg);
-    transition: .1s ease-in;
-    
- }*/
-
- .product-item12 {
-    background-image: url(../products/12/IMG_1273.jpg);
-    background-size: 315px auto;
-    
+.conditions-text {
+    font-family: 'futura';
 }
 
-/*.product-item12:hover {
-    background-image: url(../products/12/IMG_1285.jpg);
-    transition: .1s ease-in;
-    
- }*/
 
- .product-item14 {
-    background-image: url(../products/14/IMG_1348.jpg);
-    background-size: 315px auto;
-    
-}
 
-/*.product-item14:hover {
-    background-image: url(../products/14/IMG_1350.jpg);
-    transition: .1s ease-in;
-    
- }*/
- 
- .product-item16 {
-    background-image: url(../products/16/IMG_1282.jpg);
-    background-size: 315px auto;
-    
-}
 
-/*.product-item16:hover {
-    background-image: url(../products/16/IMG_1284.jpg);
-    transition: .1s ease-in;
-    
- }*/
-
- .product-item18 {
-    background-image: url(../products/18/IMG_1446.jpg);
-    background-size: 315px auto;
-    
-}
-
-/*.product-item18:hover {
-    background-image: url(../products/18/IMG_1447.jpg);
-    transition: .1s ease-in;
-    
- }*/
-
- .product-item20 {
-    background-image: url(../products/20/IMG_1391.jpg);
-    background-size: 315px auto;
-    
-}
-
-/*.product-item20:hover {
-    background-image: url(../products/20/IMG_1411.jpg);
-    transition: .1s ease-in;
-    
- }*/
-
- .product-item-link {
-     text-decoration: none;
- }
- .product-list {
-    
-    padding: 15px 0;
-    width: 100%;
-    margin-top: 350px;
- }
-
- .product-list h3 {
-    font-size: 18px;
-    font-weight: 400;
-    color: #231F20;
-    margin: 0 0 10px 0;
- }
-
- .price {
-    font-size: 16px;
-    color: #231F20;
+.send-button {
+    width: 120px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    margin-bottom: 12px;
-    font-weight: 800;
-    font-family: "futura-bold";
- }
- .button-product {
-    text-decoration: none;
-    display: inline-block;
-    padding: 0 12px;
-    background: #EDEDED; 
-    color: white;
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 28px;
-    transition: .3s ease-in;
-    font-family: "futura";
- }
- .product-items > div:hover .button-product {
-    background: #FA15FF;
- }
+    background-color: #FA15FF;
+    font-size: 16px;
+}
 
+.send-button:hover {
+    background-color: #2300B0;
+    color: #ffffff;
+}
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
 
-/*------------------------------*/
+.contact-header {
+    font-family: 'futura';
+    font-size: 14px;
+}
+
+.contact-mail {
+    font-family: 'futura-bold';
+    font-size: 14px;
     
+}
+
+/*-------------------------------------*/
+
 .links {
     display: flex;
     flex-direction: column;
@@ -682,7 +545,7 @@ h4 > a {
     clip: rect(1px, 1px, 1px, 1px);
 }
 
-/*________________________________________*/
+/*____________________________________*/
 
 .footer {
     
@@ -792,3 +655,218 @@ h4 > a {
 .email-span {
     display: none;
 } 
+
+@media (max-width: 640px) {
+
+        .header {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            margin: 0;
+        }
+    
+        .container-logo {
+            display: none;
+        }
+    
+        .container-menu {
+            width: 90%;
+            margin-top: 35px;
+            margin-left: auto;
+            margin-right: auto;
+    
+        }
+            
+        .menu {
+            width: 35px;
+            height: 35px;
+    
+        }
+        .menu__button {
+            display: block;
+            width: 1.4em;
+            height: 1em;
+            border: none;
+            padding: 0;
+            background-color: transparent;
+            font-size: 25px;
+            position: relative;
+            text-indent: -9999px;
+            cursor: pointer;
+            margin: 5px 0;
+        }
+        .menu__button:before {
+            top: 0;
+        }
+        .menu__button:after {
+            bottom: 0;
+        }
+        .menu__button:after, .menu__button:before {
+            content: "";
+            width: 100%;
+            height: 10%;
+           
+            background-color: #231F20;
+            position: absolute;
+            left: 0;
+        }
+        .menu__button-label {
+            width: 80%;
+            height: 10%;
+            margin-top: -0.1em;
+            
+            background-color: #231f20;
+            position: absolute;
+            left: 0;
+            top: 50%;
+        }
+        .menu-list {
+            display: none;
+        }
+    
+        .container-profile {
+            width: 20%;
+        }
+        .profile-item:first-child {
+            display: none;
+        }
+    
+        .profile-item:nth-child(2) {
+            display: none;
+        }
+    
+        .profile-item:nth-child(1n+3) {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+            
+        }
+    
+        
+        .profile-link-cabinet {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+            fill: #ffffff;
+            background-image: url("../svg/profile-mobile.svg");
+        }
+    
+        .profile-link-cart {
+            width: 25px;
+            height: 25px;
+            background-size: 25px;
+            fill: #ffffff;
+            background-image: url("../svg/cart-mobile.svg");
+        }
+    
+    
+        .welcome {
+            height: 750px;
+            width: 100%;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+
+        .welcome-title {
+            font-size: 36px;
+            padding-top: 35px;
+        }
+
+        .application {
+            width: 95%;
+        }
+    
+        .application-header {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .application-fields input, textarea {
+            font-size: 16px;
+            height: 45px;
+        }
+
+        .send-button {
+            width: 120px;
+            height: 60px;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        .links {
+            margin-top: 0px;
+        }
+
+        .follow {
+            font-size: 22px;
+        }
+
+        .footer-elements {
+            width: 90%;
+            padding-bottom: 80px;
+            
+        }
+        .articles-footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .links-column {
+            order: 1;
+            margin: 0;
+         
+        }
+    
+        .text-links {
+            margin: 0;
+            margin-top: 60px;
+            font-size: 22px;
+            
+        }
+    
+        .quick-link-text {
+            font-size: 18px;
+        }
+    
+        .text-column {
+            order: 2;
+            margin: 0;
+           
+        }
+    
+        .newsletter {
+            order: 0;
+            width: 100%;
+        }
+    
+        .subscribe-text {
+            margin: 0;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+    
+        .subscribe-email {
+            width: 100%;
+        }
+    
+        .email {
+            width: 100%;
+            height: 50px;
+        }
+    
+        .subscribe-button {
+            width: 120px;
+            height: 60px;
+            margin: 0;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        
+    }
+

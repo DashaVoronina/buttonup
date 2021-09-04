@@ -72,19 +72,19 @@ button {
 }
 .menu-list-item a {
     color: #231F20;
-    font-family: futura;
+    font-family: futura-bold;
     text-decoration: none;
     font-size: 18px;
 }
 
 .menu-list-item a:hover {
-    color: #FA15FF;
-    font-family: futura;
+    color: #2300B0;
+    
     text-decoration: none;
     
 }
 .menu-list-item:nth-child(n + 2) {
-    margin-left: 38px;
+    margin-left: 40px;
 }
 
     
@@ -118,8 +118,6 @@ button {
     margin: 0;
 
 }
-
-
 
 
 .profile-item-link {
@@ -166,6 +164,22 @@ button {
     margin-right: 38px;
 }
 
+.profile-link-search {
+    background-image: url("../svg/search.svg");
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    margin: 0;
+    margin-right: 30px;
+}
+
+.profile-link-search:hover {
+    background-image: url("../svg/search-hover.svg");
+}
+
 .profile-link-cart {
     background-image: url("../svg/cart.svg");
     display: block;
@@ -173,14 +187,24 @@ button {
     height: 25px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 0;
-    margin: 0;
+    margin-right: 30px;
+    
 }
 
 .profile-link-cart:hover {
     background-image: url("../svg/cart-hover.svg");
 }
 
+.profile-link-country {
+    background-image: url("../svg/uk\ flag.svg");
+    display: block;
+    width: 30px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0;
+    margin: 0;
+}
 
 .profile-link-text {
     position: absolute;
@@ -325,208 +349,8 @@ h4 > a {
     margin: 0;
 }
 
-
-.bestsellers > .new-title {
-    
-    margin-top: 60px;
-    margin-bottom: 30px;
-}
-
-.product-items {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    
-   
-    text-align: center;
-    justify-content: space-between;
-   
-    background: white;
-    font-family: "futura";
-    
-    
-}
-
-.product-items > div {
-    display: flex;
-    
-    background-repeat: no-repeat;
-    background-position: center center;
-    
-    width: 15%;
-    height: 190px;
-    
-    margin-bottom: 60px;
-    margin-right: 20px;
-    background-color: #231F20;
-    z-index: 2; 
-    background-size: 200px auto;
-}
-
-.product-items > div:nth-child(6n+6) {
-    margin-right: 0;
-}
-
-.product-items > div:last-child {
-    margin-right: 0;
-}
-
-.product-item4 {
-    background-image: url(../products/4/photo1626945770.jpeg); 
-}
-
-.product-item8 {
-    background-image: url(../products/8/photo1626946117\ 1.png); 
-}
-
-.product-item12 {
-    background-image: url(../products/12/IMG_1273.jpg); 
-}
-
-.product-item14 {
-    background-image: url(../products/14/IMG_1348.jpg); 
-}
-
-.product-item13 {
-    background-image: url(../products/13/14.jpg); 
-}
-.product-item18 {
-    background-image: url(../products/18/IMG_1446.jpg); 
-}
-
-
- 
-
- .product-item-link {
-     text-decoration: none;
-     width: 100%;
- }
-
-
-
- .product-list {
-    
-    padding: 15px 0;
-    width: 100%;
-    margin-top: 190px;
- }
-
- .product-list h3 {
-    font-size: 18px;
-    font-weight: 400;
-    color: #231F20;
-    margin: 0 0 10px 0;
-    height: 50px;
- }
-
- .price {
-    font-size: 16px;
-    color: #231F20;
-    display: block;
-    margin-bottom: 12px;
-    font-weight: 800;
-    font-family: "futura-bold";
- }
- 
-
-
-.new_collection {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 125px;
-    width: 90%;
-    
-}
-.new-title {
-    text-transform: uppercase;
-    font-size: 32px;
-    text-align: center; 
-    font-family: futura-bold;
-    margin: 0;
-    margin-bottom: 40px;
-
-}
-.new-collection {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.user {
-    width: 80%;
-}
-
-.user__img {
-    width: 100%;
-    height: 100%;
-}
-
-.new-info{
-    display: block;
-    
-    margin-left: 5%;
-    
-}
-
-.article__title {
-    margin-bottom: 15px;
-    font-family: futura;
-    text-transform: uppercase;
-}
-
-.article__title__link:hover {
-    color: #91A6BF;
-    text-decoration: none;
-}
-
-.article__text {
-    margin-bottom: 60px;
-    font-family: futura;
-}
-
-
-.button_new {
-    display: flex;
-}
-
-.button_discover{
-    width: 140px;
-    height: 50px;
-    outline: none;
-    background-color: #EDEDED;
-    margin: 0;
-    margin-right: 20px;
-}
-
-.button_discover:hover {
-    
-    background-color: #2300B0;
-}
-
-.button_discover-label {
-    font-family: futura-bold;
-    color: #231F20;
-    font-size: 16px;
-}
-
-.button_discover:hover .button_discover-label {
-    color: #ffffff;
-}
-
-
-
-
-
-
-
 .container-designers {
-    margin-top: 125px;
+    margin-top: 60px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -646,98 +470,299 @@ h4 > a {
         color: #ffffff;
         
     }
-    
-    
 
-    .links {
-        display: flex;
-        flex-direction: column;
-        margin-top: 90px;
-        margin-bottom: 60px;
-        align-items: center;
-    }
+
+ 
+
+
+.new_collection {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 90%;
     
-    .follow {
-        font-size: 32px;
-        text-transform: uppercase;
-        margin-bottom: 15px;
-        font-family: futura-bold;
-        color: #231F20;
-    }
-    .container-link {
-        display: flex;
-        box-sizing: border-box;
-        width: 100%;
-             
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        justify-content: center;
-        
-    }
+}
+.new-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center; 
+    font-family: futura-bold;
+    margin: 0;
+    margin-bottom: 30px;
+
+}
+.new-collection {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     
-    .socials {
-        display: flex;
-        list-style: none;
-        margin: 0;
+}
+
+.user {
+    width: 50%;
+}
+
+.user__img {
+    width: 100%;
+    height: 100%;
+}
+
+.new-info{
+    display: block;
     
-    }
+    margin-left: 5%;
     
-    .socials-item {
-        margin-right: 20px;
-    }
-    .socials-item:last-child {
-        margin-right: 0;
-    }
+}
+
+.article__title {
+    margin-bottom: 15px;
+    font-family: futura;
+    text-transform: uppercase;
+}
+
+.article__title__link:hover {
+    color: #91A6BF;
+    text-decoration: none;
+}
+
+.article__text {
+    margin-bottom: 60px;
+    font-family: futura;
+}
+
+
+.button_new {
+    display: flex;
+}
+
+.button_discover{
+    width: 140px;
+    height: 50px;
+    outline: none;
+    background-color: #EDEDED;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.button_discover:hover {
     
-    .socials-link {
-        display: block;
-        width: 51px;
-        height: 51px;
-        background-repeat: no-repeat;
-        background-size: 51px;
-        background-position: center;
-        
-    }
+    background-color: #2300B0;
+}
+
+.button_discover-label {
+    font-family: futura-bold;
+    color: #231F20;
+    font-size: 16px;
+}
+
+.button_discover:hover .button_discover-label {
+    color: #ffffff;
+}
+
+
+
+
+.bestsellers > .new-title {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.product-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+    text-align: center;
+    justify-content: space-between;
+   
+    background: white;
+    font-family: "futura";
     
     
-    .socials-link-instagram {
-        background-image: url("../svg/Instagram.svg");
-        background-size: auto 35px;
-    }
+}
+
+.product-items > div {
+    display: flex;
     
-    .socials-link-instagram:hover {
-        background-image: url("../svg/Instagram-hover.svg");
-    }
+    background-repeat: no-repeat;
+    background-position: center center;
     
+    width: 15%;
+    height: 190px;
     
+    margin-bottom: 60px;
+    margin-right: 20px;
+    background-color: #231F20;
+    z-index: 2; 
+    background-size: 200px auto;
+}
+
+.product-items > div:nth-child(6n+6) {
+    margin-right: 0;
+}
+
+.product-items > div:last-child {
+    margin-right: 0;
+}
+
+.product-item4 {
+    background-image: url(../products/4/photo1626945770.jpeg); 
+}
+
+.product-item8 {
+    background-image: url(../products/8/photo1626946117\ 1.png); 
+}
+
+.product-item12 {
+    background-image: url(../products/12/IMG_1273.jpg); 
+}
+
+.product-item14 {
+    background-image: url(../products/14/IMG_1348.jpg); 
+}
+
+.product-item13 {
+    background-image: url(../products/13/14.jpg); 
+}
+.product-item18 {
+    background-image: url(../products/18/IMG_1446.jpg); 
+}
+
+
+ 
+
+ .product-item-link {
+     text-decoration: none;
+     width: 100%;
+ }
+
+
+
+ .product-list {
     
-    .socials-link-facebook {
-        background-image: url("../svg/Fb.svg");
-        background-size: auto 36px;
-    }
+    padding: 15px 0;
+    width: 100%;
+    margin-top: 190px;
+ }
+
+ .product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #231F20;
+    margin: 0 0 10px 0;
+    height: 50px;
+ }
+
+ .price {
+    font-size: 16px;
+    color: #231F20;
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 800;
+    font-family: "futura-bold";
+ }
+
+
+
+   /*_______________________________________________*/ 
     
-    .socials-link-facebook:hover {
-        background-image: url("../svg/Fb-hover.svg");
-    }
+   .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.follow {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: futura-bold;
+    color: #231F20;
+
+}
+.container-link {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+         
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
     
-    .socials-link-youtube {
-        background-image: url("../svg/YouTube.svg");
-        background-size: auto 35px;
-    }
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+.socials-item {
+    margin-right: 20px;
+}
+.socials-item:last-child {
+    margin-right: 0;
+}
+
+.socials-link {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
     
-    .socials-link-youtube:hover {
-        background-image: url("../svg/YouTube-hover.svg");
-    }
-    
-    .socials-link-text {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        clip: rect(1px, 1px, 1px, 1px);
-    }
-    
+}
+
+
+.socials-link-instagram {
+    background-image: url("../svg/Instagram.svg");
+    background-size: auto 23px;
+}
+
+.socials-link-instagram:hover {
+    background-image: url("../svg/Instagram-hover.svg");
+}
+
+
+
+.socials-link-facebook {
+    background-image: url("../svg/Fb.svg");
+    background-size: auto 23px;
+}
+
+.socials-link-facebook:hover {
+    background-image: url("../svg/Fb-hover.svg");
+}
+
+.socials-link-youtube {
+    background-image: url("../svg/YouTube.svg");
+    background-size: 35px auto;
+}
+
+.socials-link-youtube:hover {
+    background-image: url("../svg/YouTube-hover.svg");
+}
+
+.socials-link-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+/*___________________________*/
+
     .footer {
         
         
