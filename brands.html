@@ -10,41 +10,57 @@
 </head>
 <body>
 
-  <div class="header">
-    <div class="container-logo">
-        <a class="logo" href="index.html"><img src="svg/Logo.svg" class="header-logo" alt></a>
-    </div>
-    <div class="container-menu">
-        <nav class="menu">
-            <button class="menu__button">
-                <span class="menu__button-label">открыть меню</span>
-            </button>
-            <ul class="menu-list">
-                <li class="menu-list-item">
-                    <a class="menu-link" href="index.html">Main page</a>
-                </li>
-                <li class="menu-list-item">
-                    <a class="menu-link" href="catalogue.html">Catalogue</a>
-                </li>
-                <li class="menu-list-item">
-                    <a class="menu-link" href="brands.html">Brands</a>
-                </li>
-                  
-        </nav>
-     <div class="container-profile">
-        <ul class="profile">
-            
-            
-            
-            <li class="profile-item">
+    <div class="header">
+        <div class="container-logo">
+            <a class="logo" href="index.html"><img src="svg/Logo.svg" class="header-logo" alt></a>
+        </div>
+        <div class="container-menu">
+            <nav class="menu">
+                <button class="menu__button">
+                    <span class="menu__button-label">открыть меню</span>
+                </button>
+                <ul class="menu-list">
+                    <!--<li class="menu-list-item">
+                        <a class="menu-link" href="index.html">Main page</a>
+                    </li>-->
+                    <li class="menu-list-item">
+                        <a class="menu-link" href="catalogue.html">Catalogue</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a class="menu-link" href="brands.html">Brands</a>
+                    </li>
+
+                      
+            </nav>
+         <div class="container-profile">
+            <ul class="profile">
+
+                <li class="profile-item">
+                    
+                    <a href="#0" class="profile-link-search">
+                        <span class="profile-link-text">search</span>
+                    </a>
                 
-                    <a href="dist/cart.html" class="profile-link-cart">
-                        <span class="profile-link-text">cart</span>
+                </li>
+                
+                
+                <li class="profile-item">
+                    
+                        <a href="dist/cart.html" class="profile-link-cart">
+                            <span class="profile-link-text">cart</span>
+                        </a>
+                    
+                </li>
+
+                <li class="profile-item">
+                    
+                    <a href="#0" class="profile-link-country">
+                        <span class="profile-link-text">country</span>
                     </a>
                 
             </li>
-            </ul>
-    </div></div></div>
+                </ul>
+        </div></div></div>
 
 
 
@@ -58,6 +74,18 @@
     </div>
 </header>
 
+
+<div class="tab">
+    <button class="tablinks" onclick="openCity(value, 'Genfer-free')">Gender-free</button>
+    <button class="tablinks" onclick="openCity(value, 'Slow-fashion')">Slow-fashion</button>
+    <button class="tablinks" onclick="openCity(value, 'Eco-friendly')">Eco-friendly</button>
+    <button class="tablinks" onclick="openCity(value, 'Eco-friendly')">Suistainable</button>
+    <button class="tablinks" onclick="openCity(value, 'Eco-friendly')">Innovative</button>
+    <button class="tablinks" onclick="openCity(value, 'Eco-friendly')">Identity</button>
+</div>
+
+ 
+
 <div class="designers">
   <ul class="designers__list">
       
@@ -68,6 +96,17 @@
             <div class="user-designer">
               <a href="DYUSO.html" class="designer-link"><img class="user-designer__img" src="images/logo_dyuso.png" alt="designer"></a>
               </div>
+
+            <div class="designer-info">
+            <div class="values">
+                <a href="#0" class="value-link">Natural fabrics</a>
+                <a href="#0" class="value-link">Slow fashion</a>
+                <a href="#0" class="value-link"></a>
+            </div>
+            <div class="country">
+                <div class="country-flag"></div>
+            </div>
+            </div>
               
               
           </article>
@@ -78,7 +117,16 @@
             <div class="user-designer">
               <a href="strangers.html" class="designer-link"><img class="user-designer__img" src="images/logo_strngrs.png" alt="designer"></a>
             </div>
-            
+            <div class="designer-info">
+                <div class="values">
+                    <a href="#0" class="value-link">Natural fabrics</a>
+                    <a href="#0" class="value-link">Slow fashion</a>
+                    <a href="#0" class="value-link"></a>
+                </div>
+                <div class="country">
+                    <div class="country-flag"></div>
+                </div>
+                </div>
         </article>
     </li>
 
@@ -87,7 +135,17 @@
               <div class="user-designer">
                   <a href="buro1218.html" class="designer-link"><img class="user-designer__img" src="images/logo1218.jpg" alt="designer"></a>
               </div>
-              
+           
+              <div class="designer-info">
+                <div class="values">
+                    <a href="#0" class="value-link">Natural fabrics</a>
+                    <a href="#0" class="value-link">Slow fashion</a>
+                    <a href="#0" class="value-link"></a>
+                </div>
+                <div class="country">
+                    <div class="country-flag"></div>
+                </div>
+                </div>
           </article>
       </li>
                  
@@ -166,7 +224,7 @@
               <span class="quick-link-text">Imprint</span></a></li>-->
       </ul></div>
       <div class="newsletter">
-      <form action="request.html"    class="subscribe">
+      <form action="pre-request.html"    class="subscribe">
 
           <h3 class="subscribe-text">Do you want to work with us? </h3>
 
